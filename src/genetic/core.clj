@@ -37,7 +37,7 @@
                           (>= best-fitness acceptable-fitness)
                           (>= duration max-seconds)])
           (do (log  "Finished:" best)
-            [best-fitness duration population-history])
+              best)
           (recur
             (inc generation)
             (let [child (fn [] (random/rand-nth-weighted (for [individual population] [individual (fitness individual)])))
