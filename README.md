@@ -5,7 +5,7 @@
 A Clojure framework for running genetic algorithms.
 
 ## Installation
-`[genetic "0.1.0"]`
+`[genetic "0.1.1"]`
 
 ## Projects Built on `genetic`
 

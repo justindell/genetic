@@ -1,4 +1,4 @@
-(defproject genetic "0.1.0"
+(defproject org.clojars.chicagofan98/genetic "0.1.1"
   :description "Framework for running genetic algorithms"
   :url "https://github.com/saulshanabrook/genetic"
   :license {:name "Eclipse Public License"
